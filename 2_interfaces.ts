@@ -12,7 +12,7 @@ const react1: Rect = {
   size: {
   width: 20,
   height: 30
-  }
+  },
   color: '#ccc'
 }
 
