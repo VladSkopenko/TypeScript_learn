@@ -20,3 +20,14 @@ function sayMyName(name) {
     console.log(name);
 }
 sayMyName('Vlad');
+// Never
+function throwError(message) {
+    throw new Error(message);
+}
+function infinite() {
+    while (true) {
+    }
+}
+var login = 'admin';
+var id1 = 1234;
+var id2 = "1234";
