@@ -9,3 +9,10 @@ var membership = Membership.Standard;
 var membershipReverse = Membership[2];
 console.log(membership);
 console.log(membershipReverse);
+var SocialMedia;
+(function (SocialMedia) {
+    SocialMedia["FACEBOOK"] = "FACEBOOK";
+    SocialMedia["INSTAGRAM"] = "INSTAGRAM";
+})(SocialMedia || (SocialMedia = {}));
+var social = SocialMedia.INSTAGRAM;
+console.log(social);
